@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   color: #000;
 }
@@ -29,6 +23,10 @@ nav {
 
 .card__section {
     padding-left: 24px;
+}
+
+.card.horizontal .card-image .card-image__item {
+    border-radius: 10px;
 }
 
 .title {
@@ -61,3 +59,125 @@ nav {
 i.card__icon {
     margin-right: 0;
 }
+
+.card__bg {
+    position: relative;
+    z-index: 0;
+}
+
+.card__user {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
+    
+}
+
+.card__user-img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -90px;
+    text-align: center;
+}
+
+.card__user-name {
+    text-align: center;
+}
+
+.card__user-name a {
+    font-size: 22px;
+    color: grey;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card__user-img img {
+    border: 4px solid #fff;
+}
+
+.card-action {
+    text-align: center;
+}
+
+.posts {
+    color: #000;
+}
+
+.posts__title {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+}
+
+.posts__title:before {
+
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #000; 
+}
+
+.posts__title:after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #000; 
+}
+
+.posts__text {
+    flex: 2;
+}
+
+.card .posts__description {
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+.card .posts__info {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__pagination .pagination li.active {
+    background-color:  #3e2723;
+}
+
+.card__follow-list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__follow-item {
+    margin: 3px 6px;
+}
+
+.card__follow-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card__follow-item img{
+    width: 94px;
+    height: 94px;
+}
+
+
+
+
+
+
