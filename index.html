@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="libs/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Material Design</title>
+	<meta charset="UTF-8">
+	<title>Material Design</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="library/materialize/css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-    <main class="container">
-        
-    </main>
-        
-    
-    
-    
-    <script src="libs/jquery/jquery-3.1.1.min.js"></script>
-    <script src="libs/materialize/js/materialize.min.js"></script>
+	<nav class="grey darken-2">
+	    <div class="nav-wrapper">
+			<a href="#" class="brand-logo">Category Page V.1</a>
+			<ul id="nav-mobile" class="right">
+				<li><a href="#"><i class="material-icons left">mail</i>Contact</a></li>
+				<li><a href="#"><img src="img/1.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/2.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/3.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/4.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/5.jpg" alt=""></a></li>
+			</ul>
+	    </div>
+	</nav>
+	<div class="container">
+		<div class="carousel carousel-slider" data-indicators="true">
+		    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+		    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+		    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+		    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+  		</div>
+  		<main class="row">
+  			<div class="col s8">
+				<h1 class="title">BROWSING: <b>TRAVEL</b></h1>
+				<div class="row">
+					<div class="card horizontal">
+						<div class="card-image">
+							<img src="http://lorempixel.com/327/220/nature/6">
+						</div>
+						<div class="card-stacked">
+							<a class="card__section" href="#"><i class="material-icons left main__flight  card__icon">flight</i>Travels</a>
+							<a class="card__title" href="#">This is a title of the news</a>
+							<div class="card-content">
+								<p>I am a very simple card. I am good at containing small bits of information.</p>
+							</div>
+							<div class="card__author">
+							    by <a class="card__name" href="#">Jessica Clark</a>, 26/08/2016
+							</div>
+							<div class="card-action">
+								<a class="waves-effect waves-light btn brown darken-4  btn__round" href="#">READ MORE</a>
+							</div>
+						</div>
+    				</div>
+				</div>
+  			</div>
+  			<div class="col s4">Mir</div>
+  		</main>
+	</div>
+
+	<script src="library/jquery/jquery-3.1.1.min.js"></script>
+	<script src="library/materialize/js/materialize.min.js"></script>
+	<script src="js/js.js"></script>	
 </body>
 </html>

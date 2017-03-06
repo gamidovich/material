@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000;
+}
+
+nav {
+  margin-bottom: 15px;
+}
+.container {
+  margin-top: 15px;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.card .card-action {
+  border: none;
+}
+
+.main__flight {
+  transform: rotate(40deg);
+}
+
+.card__section {
+    padding-left: 24px;
+}
+
+.title {
+     font-size: 28px;   
+}
+
+.card__title {
+    padding: 24px 0 0 24px;
+    font-size: 24px;
+    color: #000;
+}
+
+.card__author {
+    padding-left: 24px;
+}
+
+.card__name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.btn__round {
+    height: auto;
+    padding: 3px 30px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+i.card__icon {
+    margin-right: 0;
+}
