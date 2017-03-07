@@ -3,8 +3,14 @@ body {
 }
 
 nav {
-  margin-bottom: 15px;
+    height: 60px;
+    margin-bottom: 15px;
 }
+
+nav .brand-logo {
+    font-size: 14px;
+}
+
 .container {
   margin-top: 15px;
 }
