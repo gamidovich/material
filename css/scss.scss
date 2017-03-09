@@ -28,8 +28,10 @@ $third-color:         #2d292a;
 $fourth-color:        #8f3d53;
 $fifth-color:         #3c719d;
 $sixth-color:         #a30c00;
+$seventh-color:       #eaeaea;
 
 $white:               #fff;
+$black:               #000;
 
 $pic:                 "../img/pic/";
 
@@ -90,7 +92,8 @@ nav {
 
 .card {
     
-    &.horizontal {
+    &.horizontal,
+    &.posts {
         padding-left: 10px;
         box-shadow: none;
     }
@@ -160,6 +163,7 @@ nav {
 }
 
 .card__user {
+    margin: 20px 0 56px 0;
     transition: box-shadow .25s;
     
     &-img {
@@ -213,4 +217,86 @@ nav {
     }
 }
 
+.posts {
+    margin-bottom: 56px;
+    
+    &__title {
+        padding-bottom: 22px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    &__title:before,
+    &__title:after {
+        content: "";
+        flex: 1;
+        border-bottom: 2px solid $black;
+    }
+    
+    &__text {
+        flex: 2;
+    }
+    
+    &__image {
+        margin: 22px 0 12px 0;
+    }
+    
+    .card &__description {
+        height: auto;
+        padding: 10px 0;
+        border-bottom: 1px solid $seventh-color;
+        border-radius: 0;
+        font-size: 14px;
+    }
+    
+    &__info {
+        margin-bottom: 6px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: $font-size-mini-x;
+    }
+    
+    &__date {        
+        
+        &-icon {
+            padding-right: 2px;
+            font-size: $font-size-mini;
+        }
+    }
+}
 
+.follow {
+    
+    &__list {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-wrap: wrap;
+    }    
+    
+    &__item {
+        margin: 6px;
+    }
+    
+    &__item:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    &__item {
+        width: 100px;
+        height: 100px;
+    }
+}
