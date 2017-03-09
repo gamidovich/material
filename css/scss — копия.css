@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/**** Typography ****/
+/**** Variables ****/
+/* line 38, D:/projects/material/css/scss — копия.scss */
+h1 {
+  padding-left: 14px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  border-left: 4px solid #376c94; }
+
+/* line 45, D:/projects/material/css/scss — копия.scss */
+body {
+  font-size: 10px; }
+
+/* line 49, D:/projects/material/css/scss — копия.scss */
+nav {
+  height: 60px;
+  margin-bottom: 15px;
+  padding: 0 18px; }
+  /* line 54, D:/projects/material/css/scss — копия.scss */
+  nav .logo {
+    font-size: 1rem;
+    font-weight: 400; }
+  /* line 59, D:/projects/material/css/scss — копия.scss */
+  nav .main-nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: stretch; }
+    /* line 67, D:/projects/material/css/scss — копия.scss */
+    nav .main-nav__item {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: stretch; }
+    /* line 76, D:/projects/material/css/scss — копия.scss */
+    nav .main-nav__item a {
+      font-size: 1rem;
+      font-weight: 400;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center; }
+
+/* line 89, D:/projects/material/css/scss — копия.scss */
+.container {
+  margin-top: 15px; }
+
+/* line 95, D:/projects/material/css/scss — копия.scss */
+.card.horizontal, .card.posts {
+  padding-left: 10px;
+  box-shadow: none; }
+
+/* line 101, D:/projects/material/css/scss — копия.scss */
+.card__section {
+  padding-left: 24px;
+  font-size: 1.2rem;
+  font-weight: 300; }
+
+/* line 107, D:/projects/material/css/scss — копия.scss */
+.card__title {
+  padding: 5px 0 0 24px;
+  font-size: 24px;
+  color: #000; }
+
+/* line 113, D:/projects/material/css/scss — копия.scss */
+.card.horizontal .card-image {
+  max-width: 40%; }
+
+/* line 117, D:/projects/material/css/scss — копия.scss */
+.card .card-content {
+  height: 74px;
+  line-height: 1.4;
+  overflow: hidden;
+  padding: 8px 25px;
+  text-align: left;
+  font-size: 1rem; }
+
+/* line 126, D:/projects/material/css/scss — копия.scss */
+.card__flight {
+  margin-right: 0;
+  transform: rotate(40deg); }
+
+/* line 131, D:/projects/material/css/scss — копия.scss */
+.card i.left {
+  margin-right: 0; }
+
+/* line 135, D:/projects/material/css/scss — копия.scss */
+.card__author {
+  font-size: 1rem;
+  padding: 7px 0 0 24px; }
+
+/* line 140, D:/projects/material/css/scss — копия.scss */
+.card__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000; }
+
+/* line 146, D:/projects/material/css/scss — копия.scss */
+.card .card-action {
+  border: none; }
+
+/* line 150, D:/projects/material/css/scss — копия.scss */
+.card .btn__round {
+  height: auto;
+  padding: 3px 30px;
+  border-radius: 20px;
+  font-size: 12px; }
+
+/* line 160, D:/projects/material/css/scss — копия.scss */
+.pagination li.active {
+  background-color: #3e2723; }
+
+/* line 165, D:/projects/material/css/scss — копия.scss */
+.card__user {
+  margin: 20px 0 56px 0;
+  transition: box-shadow .25s; }
+  /* line 169, D:/projects/material/css/scss — копия.scss */
+  .card__user-img {
+    position: relative;
+    left: 50%;
+    width: 190px;
+    height: 190px;
+    margin: -85px 0 0 -95px;
+    z-index: 0; }
+    /* line 177, D:/projects/material/css/scss — копия.scss */
+    .card__user-img .circle {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      z-index: 1; }
+  /* line 187, D:/projects/material/css/scss — копия.scss */
+  .card__user-name {
+    margin: 14px 0 10px 0;
+    text-align: center; }
+  /* line 192, D:/projects/material/css/scss — копия.scss */
+  .card__user-name a {
+    font-size: 1.4rem;
+    color: #2d292a; }
+  /* line 197, D:/projects/material/css/scss — копия.scss */
+  .card .card__user-content {
+    height: 100px;
+    text-align: center;
+    line-height: 1.5; }
+  /* line 203, D:/projects/material/css/scss — копия.scss */
+  .card__user-action {
+    text-align: center; }
+    /* line 206, D:/projects/material/css/scss — копия.scss */
+    .card__user-action .fa-instagram {
+      color: #3c719d; }
+    /* line 210, D:/projects/material/css/scss — копия.scss */
+    .card__user-action .fa-dribbble {
+      color: #8f3d53; }
+    /* line 214, D:/projects/material/css/scss — копия.scss */
+    .card__user-action .fa-pinterest {
+      color: #a30c00; }
+
+/* line 220, D:/projects/material/css/scss — копия.scss */
+.posts {
+  margin-bottom: 56px; }
+  /* line 223, D:/projects/material/css/scss — копия.scss */
+  .posts__title {
+    padding-bottom: 22px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    text-align: center; }
+  /* line 235, D:/projects/material/css/scss — копия.scss */
+  .posts__title:before, .posts__title:after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #000; }
+  /* line 242, D:/projects/material/css/scss — копия.scss */
+  .posts__text {
+    flex: 2; }
+  /* line 246, D:/projects/material/css/scss — копия.scss */
+  .posts__image {
+    margin: 22px 0 12px 0; }
+  /* line 250, D:/projects/material/css/scss — копия.scss */
+  .card .posts__description {
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+    border-radius: 0;
+    font-size: 14px; }
+  /* line 258, D:/projects/material/css/scss — копия.scss */
+  .posts__info {
+    margin-bottom: 6px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem; }
+  /* line 272, D:/projects/material/css/scss — копия.scss */
+  .posts__date-icon {
+    padding-right: 2px;
+    font-size: 1.2rem; }
+
+/* line 281, D:/projects/material/css/scss — копия.scss */
+.follow__list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 290, D:/projects/material/css/scss — копия.scss */
+.follow__item {
+  margin: 6px; }
+
+/* line 294, D:/projects/material/css/scss — копия.scss */
+.follow__item:nth-child(3n) {
+  margin-right: 0; }
+
+/* line 298, D:/projects/material/css/scss — копия.scss */
+.follow__item {
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=scss — копия.css.map */
